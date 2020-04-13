@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void sleep(int i){
         try {
-            //TODO remove todo
             Thread.sleep(i);
         } catch (InterruptedException e) {
             e.printStackTrace();
